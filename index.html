@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#">MFelipeDev</a></div>
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Quem sou</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="user">
+                <button class="login">Login</button>
+                <button class="register">Registrar</button>
+            </div>
+            <div class="menu2">
+                <button class="btnmenu" onclick="menuShow()"><img src="img/menu_white_36dp.svg" style="width: 25px; height: auto;" alt=""></button>
+            </div>
+        </nav>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Quem sou</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="user-mobile">
+                <button class="login">Login</button>
+                <button class="register">Registrar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="conteudo-banner">
+                <h1>Seja bem-vindo(a) a minha página</h1> 
+                <p>Olá 👋 Meu nome é Marcio Felipe. Estou animado por ter você aqui na minha página de boas-vindas. Aqui, vou compartilhar alguns dos meus interesses e projetos. Fique à vontade para explorar e conhecer um pouco mais sobre mim.</p>
+            </div>
+            <div class="imagem-banner">
+                <img src="img/img1.png" alt="welcome">
+            </div>
+        </div>
+        <div class="titulo-1">
+            <h1>🏛️ Home</h1>
+        </div>
+        <div class="conteudo-1">
+            <div class="banner-1">
+                <div class="paragrafo-1">
+                    <h2>Quem sou eu?</h2>
+                    <p>Sou o Marcio Felipe, tenho 24 anos, resíduo no bairro São João Clímaco e atualmente estou redirecionando minha carreira para a área de T.I com o objetivo de desenvolver aplicações “web e mobile”, buscando o meu primeiro emprego na área para o desenvolvimento profissional.</p>
+                </div>
+                <div class="iframe-1">
+                    <iframe src="https://lottie.host/embed/49c95c58-0813-4161-ad63-5710cd8effef/LVl4wmZZgq.json" width="300" height="200" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="janelaModal" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar" onclick="fecharJanela()">&times;</span>
+                <h2>Obrigado por testar! 😅</h2>
+            </div>
+        </div>
+        <div class="conteudo-2">
+            <div class="banner-1">
+                <div class="iframe-2">
+                    <iframe src="https://lottie.host/embed/e0327547-4b9f-41f1-afb8-c68abde7bb29/ZFbu2KNC1O.json" width="300" height="200" frameborder="0"></iframe>
+                </div>
+                <div class="paragrafo-1">
+                    <h2>Explorando Minhas Competências: </h2>
+                    <p>Possuo habilidades sólidas em HTML5, CSS3, JavaScript, Photoshop e Illustratos. Estruturo informações com HTML5, estilizo o designer com precisão usando CSS3 e adiciono a interação com JavaScript. Não apenas codifico, mas construo experiências que cativam usuários, explorando constantemente novas tecnologias para enfrentar os desafios da web moderna.</p>
+                    <button class="btn-1" id="abrirJanela">Abrir Janela</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
